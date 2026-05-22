@@ -1,0 +1,36 @@
+# 1. Environnement et Clés API
+.env
+.env.*
+*.pem
+
+# 2. Données Locales et Logs (CRITIQUE)
+data/
+*.json
+*.log
+*.sqlite3
+
+# Si exports MongoDB locaux temporaires
+/dump/
+*.bson
+
+
+# 3. Environnement Virtuel Python
+
+.venv/
+venv/
+env/
+ENV/
+
+
+# 4. Fichiers de Cache Python
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 5. Configurations IDE et OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
