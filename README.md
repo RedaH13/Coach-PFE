@@ -41,10 +41,11 @@ cd coach-pfe-langgraph
 ### 2. Environnement Virtuel et Dépendances
 Il est recommandé d'utiliser un environnement virtuel :
 
-bash
+```bash
 python -m venv .venv
 source .venv/bin/activate  # Sur Windows : .venv\Scripts\activate
 pip install .              # Ou pip install -r requirements.txt
+```
 
 ### 3. Configuration des Variables d'Environnement
 Créez un fichier .env à la racine du projet et ajoutez vos clés d'API et identifiants de base de données :
