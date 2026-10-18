@@ -56,7 +56,7 @@ MONGODB_URI="mongodb://localhost:27017" # Ou host.docker.internal si sous Docker
 TELEGRAM_BOT_TOKEN="Telegram_Token_Access"
 
 ## 📂 Structure du Projet
-Code
+```text
 coach_pfe_langgraph/
 ├── main.py                 # Point d'entrée et intégration Telegram
 ├── state.py                # Définition de l'état global et de la mémoire LangGraph
@@ -69,9 +69,10 @@ coach_pfe_langgraph/
 ├── data/                   # Dossier ignoré contenant memory.json
 ├── requirements.txt        # Dépendances du projet
 └── pyproject.toml          # Configuration du package Python
+```
 
 ## 🚀 Exécution
 Pour lancer l'orchestrateur et mettre le bot en écoute :
 
-bash
+```bash
 python main.py
